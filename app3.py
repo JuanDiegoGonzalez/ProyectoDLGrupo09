@@ -175,12 +175,9 @@ if uploaded_file is not None:
 
         resp = [data[i] for i in y_pred_classes[0]]
         st.write("Minuto 1: " + resp[0])
-        st.write("Minuto 2: " + resp[0])
-        st.write("Minuto 3: " + resp[0])
-        st.write("Minuto 4: " + resp[0])
-        st.write("Minuto 5: " + resp[0])
+        st.write("Minuto 2: " + resp[1])
+        st.write("Minuto 3: " + resp[2])
+        st.write("Minuto 4: " + resp[3])
+        st.write("Minuto 5: " + resp[4])
         
         plot_predictions_patient(Y_train, start_time , X_train  )
-
-
-
